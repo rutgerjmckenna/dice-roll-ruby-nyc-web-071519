@@ -2,7 +2,6 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(snake_eyes)
-  snake_eyes = rand(1..6)
-  return roll
+def roll(snake_eyes = rand(1..6))
+  puts snake_eyes
 end
