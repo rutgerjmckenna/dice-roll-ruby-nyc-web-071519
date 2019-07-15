@@ -4,5 +4,5 @@
 
 def roll(snake_eyes)
   snake_eyes = rand(1..6)
-  
+  return snake_eyes
 end
